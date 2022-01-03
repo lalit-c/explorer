@@ -3,7 +3,7 @@ console.log("STARTED...");
 
 var logElement;
 var initialPlacementMade = false;
-var initialPlacementDoneMessage = "Giving out starting resources";
+var initialPlacementDoneMessage = "starting resources";
 var placeInitialSettlementSnippet = "turn to place";
 var receivedResourcesSnippet = "got:";
 var builtSnippet = "built a";
