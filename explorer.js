@@ -690,7 +690,7 @@ function waitForInitialPlacement() {
             loadCounter();
         } else {
             var messages = Array.prototype.slice.call(logElement.children).map(p => p.textContent);
-            if (messages.some(m => m === initialPlacementDoneMessage)) {
+            if (messages.some(m => m.indexOf(initialPlacementDoneMessage)>-1)) {
                 initialPlacementMade = true;
             }
         }
